@@ -35,9 +35,9 @@ img {
 
 *,html,
 body{
-   overflow-x: hidden;
+   /* overflow-x: hidden; */
    font-family: 'Lato', sans-serif;
-   background: url();
+   background: url(assets/images/bg-img.jpg);
    margin: 0;
    padding: 0;
    box-sizing: border-box;
@@ -60,13 +60,7 @@ body{
       color: dark;
       font-size: 1.1rem;
       padding: .5rem;
-   } 
-
-   /* .container{
-      margin-top: 0;
-      background: #fff !important;
-   } */
-
+   }
    .navbar{
    font-size: 1.14rem;
    font-weight: 900;
@@ -112,8 +106,10 @@ body{
    margin: 1rem 1rem 1rem;;
    border: 1px solid red;
    font-family: 'Lato', sans-serif;
-   font-weight: 100;
+   color: var(--black);
   }
+  
+  
 .main-program>.lecture{
    border: 1px solid red;
 }
@@ -126,15 +122,15 @@ body{
 
 .main-program{
    background-image: url('../assets/images/main-bg.svg');
-   position: absolute;
-   
+   position: rel;
+   background-size: cover;
    text-align: center;
-   
+   width: 1005;
 }
 
 .line-break{
-   border: 2px solid var(--red);
-   width: 2rem;
+   border: 0px solid var(--red);
+   width: 0rem;
    margin: 0 auto;
 }
 
@@ -149,9 +145,9 @@ body{
 .lecture-logo{
    width: 18%;
    background: #adabab38;
-   padding: 0.8rem;
-   height: 13rem;
-   line-height: 1;
+   padding: 0.7rem;
+   height: 14rem;
+   line-height: 1.2;
 }
 
 .p-head{
@@ -192,7 +188,11 @@ div.lecture-para{
    justify-content: flex-end;
    color: white;
 }
-
+.lecture-logo>img {
+   height: 40%;
+   width: 60%;
+   padding-left: 2rem;
+} 
 .lecture-logo>h4{
    padding-left: 10rem;
    
@@ -217,10 +217,29 @@ div.lecture-para{
       display: none;
    } 
 
-   .container{
-      background: url('../assets/images/bg-img.jpg') bottom ;
-      background-size: cover;
-   }
+   .lecture-article{
+      flex-direction: column;
+      margin: 2.5rem 0;
+ }
+
+ .lecture-logo{
+    width: 100%;
+    margin: -1rem auto;
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    height: auto;
+}
+
+.p-head{
+   font-size: 1.3rem;
+   overflow-wrap: break-word;
+}
+
+.p-details{
+   font-size: medium;
+}
 
  }
 
@@ -228,14 +247,8 @@ div.lecture-para{
 
  @media only screen and (max-width: 1024px){
   
+
  }
-
- 
-
-
-
-
-
 /* ---------Bootstrap mobile gutter fixed------ */
 .row, .container-fluid {
    margin-left: 0px !important;
@@ -243,7 +256,7 @@ div.lecture-para{
 }
 
 /* ----Fixed background image----- */
-/* .fixed-background {
+.fixed-background {
    position: relative;
    width: 100%;
    z-index: 1000 !important;
@@ -268,62 +281,4 @@ div.lecture-para{
    background-position: center center;
    -webkit-transform: translateZ(0);
    transform: translate(0);
-} */
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-   @media only screen and (max-width: 1024px){
-  
-      .lecture-logo{
-         width: 35%;
-         padding: .5rem;
-         height: 10rem;
-      }
-      .p-head{
-         font-size: 1.2rem;
-      }
-   }
-
-
-
-
-   @media only screen and (max-width: 768px){
-   .lecture-article{
-         flex-direction: column;
-         margin: 2.5rem 0;
-    }
-   
-    .lecture-logo{
-       width: 100%;
-       margin: 0.5rem auto;
-       padding: 1rem;
-       display: flex;
-       align-items: center;
-       text-align: left;
-       height: auto;
-   }
-   
-   .p-head{
-      font-size: 1.3rem;
-      overflow-wrap: break-word;
-   }
-   
-   .p-details{
-      font-size: medium;
-   }
-
-
-   }
+}
