@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+
 
 ##  I have build a live musical performance plateform.
 This project has been created as a part of Microverse Collaborative Project.
@@ -10,13 +10,12 @@ This project has been created as a part of Microverse Collaborative Project.
 
 * HTML
 * CSS
-* SASS
 * BootStrap
 * VS Code 
 
 ## Live Demo
 
-[Live Demo Link](https://aymenbida.github.io/Newsweek-clone-project/)
+[Live Demo Link]
 
 ## Getting Started
 
@@ -33,7 +32,7 @@ A machine with a working and up to date web browser.
 
 * Clone the repository to your folder of choice using Git :
 
-* <code>git clone git@github.com:AymenBida/Newsweek-clone-project.git</code>
+* <code>git clone git@github.com:</code>
 
 * then go to that folder :
 
@@ -41,13 +40,6 @@ A machine with a working and up to date web browser.
 
 * Open the index.html file (in the folder) and the website should show up.
 
-## Authors
-
-👤 **Author1**
-
-* GitHub: [@AymenBida](https://github.com/AymenBida)
-
-👤 **Author2**
 
 * GitHub: [@FrederickMih](https://github.com/FrederickMih)
 
