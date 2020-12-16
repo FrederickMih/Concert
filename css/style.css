@@ -9,35 +9,30 @@
    --icons-bg-color: #eee;
    --text-color-dark: rgb(12, 11, 11);
    --text-color-light: rgb(105, 102, 102);
- }
+}
  
  *,
  ::before,
  ::after {
    box-sizing: inherit;
- }
+}
 
  /*----------x------ CSS Quick Fixes ----------x------------------*/
 
-:root{
-   /* Theme colors */
+           /*--------------- Theme colors---------- */
+ 
+:root { 
+  
    --black: #272A31;
    --red:#EC5242;
    --white:#D3D3D3;  
 
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 *,html,
-body{
-   /* overflow-x: hidden; */
+body {
+   overflow-x: hidden; 
    font-family: 'Lato', sans-serif;
-   background: url(assets/images/bg-img.jpg);
    margin: 0;
    padding: 0;
    box-sizing: border-box;
@@ -45,22 +40,26 @@ body{
 
 @font-face{
    font-family: "cocogoose";
-   src: url(/assets/fonts/cocogoose/Cocogoose-Thin.ttf);
+   src: url('../assets/fonts/cocogoose/Cocogoose-Thin.ttf');
    font-style: normal;
    font-weight: 100;
 }
+
 .top-social {
    background: var(--black);
-   height: 2.8rem;
-   padding: .5rem 0;
+   height: 3rem;
    }
 
-   .top-social a{
-      text-decoration: none;
-      color: dark;
-      font-size: 1.1rem;
-      padding: .5rem;
-   }
+.top-social a{
+   text-decoration: none;
+   font-size: 1.5rem;
+   padding-left: 1rem;
+}
+   
+   i{
+      margin-top: .5rem;
+}
+
    .navbar{
    font-size: 1.14rem;
    font-weight: 900;
@@ -72,77 +71,101 @@ body{
    .nav-item {
       padding: .5rem;
       
-   }
+}
 
    .nav-link.active,
    nav-link:hover {
       color: var(--red) !important;
-   }
+}
+
+   .red-button{
+      border-width: .2rem;
+      border-color: var(--red);
+}
   
    .logo {
       width: 2rem;
       height: 4rem;
       margin-top: 0rem;
-   }
+}
 
-   .top-title>h1{
-      margin: 1rem 1rem 1rem;
-      color: var(--red);
-      font-weight: bolder;
-         
-   }
-   .top-title>h3{
-      margin: 1rem 1rem 1rem;
-      color: var(--red);
-   }
+    /* Media queries for navigation bars */
+    @media(max-width: 2024px){
 
+    }
+    
+    @media(max-width: 768px){
+      .top-social {
+         display: none;
 
-   h1.big-p{
-     margin: 1rem 1rem 1rem;
-     border: 1px solid red;
-     
-         }
-  .top-pg>p, div.small-article{
-   margin: 1rem 1rem 1rem;;
-   border: 1px solid red;
-   font-family: 'Lato', sans-serif;
-   color: var(--black);
-  }
+      }
+   }
+        /* ----------Main section here--------------- */
+
+      .top-info{
+       background: linear-gradient(
+         rgba(247, 242, 242, 0.5),
+         rgb(245, 240, 240)
+       ),
+       url(../assets/images/960px-U2_360_Zooropa_Oakland.jpg) no-repeat center center fixed;
+       -webkit-background-size:cover;
+       -moz-background-size: cover ;
+       -o-background-size:cover;
+       background-size: cover;
+       background-position: center;
+       z-index: -1;
+      }
+    
+      .sub-top-info{
+         color: var(--red);
+         font-family: 'cocogoose';
+         font-size: 2rem;
+         margin-top: 4rem;
+      }
+
+      .live-music{
+         font-family: 'lato';
+         font-weight: bolder;
+         font-size: 5rem;
+         background: linear-gradient(45deg, rgb(20, 1, 1) 0%, rgba(33, 3, 3, 1)33%, rgb(12, 6, 5)56%);
+         color: var(--red);
+         -webkit-background-clip: text;
+         -webkit-background-fill-color: transparent;
+      }
+   
   
-  
-.main-program>.lecture{
+   .main-program>.lecture{ 
    border: 1px solid red;
 }
 
+/* .main-program {
+   text-align: center;
+   background-color: white;
+   background-size: cover;
+} */
 
 
-
-
-
-
-.main-program{
+   .main-program {
    background-image: url('../assets/images/main-bg.svg');
-   position: rel;
    background-size: cover;
    text-align: center;
-   width: 1005;
 }
 
-.line-break{
-   border: 0px solid var(--red);
-   width: 0rem;
+  .line-break {
+   border: 2px solid var(--red);
+   width: 2rem;
    margin: 0 auto;
 }
 
-  .lecture-article{ 
+  .lecture-article { 
    display: flex;
    justify-content: space-between;
    align-items: center;
    color: var(--white);
-   }
+}
   
 
-.lecture-logo{
+ .lecture-logo {
    width: 18%;
    background: #adabab38;
    padding: 0.7rem;
@@ -197,26 +220,21 @@ div.lecture-para{
    padding-left: 10rem;
    
 }
-
-
-/* ------Navigation----------  */
-   
-
  
  /* -----------------------------MEDIA QUERIES-------------------------------- */
- /*------ Device under 768px------ */
+ 
 
  @media only screen and (max-width: 768px){
+    .top-info{
+    padding-top: 2.6rem;
+   }
+
    .navbar-logo{
       display: none;
    }
    .logo{
       display: none;
    }
-   .top-social{
-      display: none;
-   } 
-
    .lecture-article{
       flex-direction: column;
       margin: 2.5rem 0;
@@ -239,46 +257,39 @@ div.lecture-para{
 
 .p-details{
    font-size: medium;
+
+ }
+.sub-top-info{
+   margin-top: 2rem;
+ }
+
+ .live-music{
+   font-size: 1rem;
 }
 
  }
 
- /* -----------Device under 1024px--------- (xl) */
 
- @media only screen and (max-width: 1024px){
-  
 
+
+ @media (max-width: 1024px) {
+
+.red-button{
+   border-width: .2rem;
+   font-size: x-small;
+}
+.top-title{
+   min-width: 80%;
+}
+
+.sub-top-info{
+   font-size:large ; 
+}
+
+.live-music{
+   font-size: 4rem;
+}
  }
-/* ---------Bootstrap mobile gutter fixed------ */
-.row, .container-fluid {
-   margin-left: 0px !important;
-   margin-right: 0px !important;
-}
 
-/* ----Fixed background image----- */
-.fixed-background {
-   position: relative;
-   width: 100%;
-   z-index: 1000 !important;
-}
-.fixed-wrap {
-   clip: rect(0, auto, auto, 0);
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-}
-
-.fixed {
-   z-index: -199 !important;
-   display: block;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background-size: cover;
-   background-position: center center;
-   -webkit-transform: translateZ(0);
-   transform: translate(0);
-}
+ 
+ 
