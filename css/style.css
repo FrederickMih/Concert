@@ -31,18 +31,18 @@
 
 *,html,
 body {
-   overflow-x: hidden; 
+  
    font-family: 'Lato', sans-serif;
    margin: 0;
    padding: 0;
-   box-sizing: border-box;
+  
 }
 
 @font-face{
    font-family: "cocogoose";
-   src: url('../assets/fonts/cocogoose/Cocogoose-Thin.ttf');
+   src: url('../assets/fonts/Cocogoose_trial.ttf');
    font-style: normal;
-   font-weight: 100;
+   /* font-weight: 100; */
 }
 
 .top-social {
@@ -91,6 +91,12 @@ body {
 
     /* Media queries for navigation bars */
     @media(max-width: 2024px){
+     .lecture-article{
+        flex-wrap: wrap;
+     }
+     .pg4,.pg4{
+        display: ;
+     }
 
     }
     
@@ -107,7 +113,7 @@ body {
          rgba(247, 242, 242, 0.5),
          rgb(245, 240, 240)
        ),
-       url(../assets/images/960px-U2_360_Zooropa_Oakland.jpg) no-repeat center center fixed;
+       url(../assets/images/Classical_spectacular10.jpg) no-repeat center center fixed;
        -webkit-background-size:cover;
        -moz-background-size: cover ;
        -o-background-size:cover;
@@ -120,17 +126,29 @@ body {
          color: var(--red);
          font-family: 'cocogoose';
          font-size: 2rem;
-         margin-top: 4rem;
+         margin-top: 1rem;
       }
 
       .live-music{
-         font-family: 'lato';
+         font-family: 'cocogoose';
          font-weight: bolder;
-         font-size: 5rem;
-         background: linear-gradient(45deg, rgb(20, 1, 1) 0%, rgba(33, 3, 3, 1)33%, rgb(12, 6, 5)56%);
+
+         background: linear-gradient(45deg, rgb(255, 0, 0, 1) 0%, rgb(33, 3, 3, 1)33%, rgb(238, 82, 1)56%);
          color: var(--red);
          -webkit-background-clip: text;
          -webkit-background-fill-color: transparent;
+      }
+
+      .more-info{
+         background: #fcf3f3;
+         font-size: small;
+         border: 2px solid;
+         border-color: #fff;
+         
+      }
+      .time{
+         margin-left: 1rem;
+         font-weight: bold;
       }
    
   
@@ -138,11 +156,12 @@ body {
    border: 1px solid red;
 }
 
-/* .main-program {
+ .main-program {
    text-align: center;
    background-color: white;
    background-size: cover;
-} */
+   
+} 
 
 
    .main-program {
@@ -260,12 +279,15 @@ div.lecture-para{
 
  }
 .sub-top-info{
-   margin-top: 2rem;
+   margin-top: 1rem;
  }
 
  .live-music{
-   font-size: 1rem;
+   font-size: 8rem;
 }
+
+
+
 
  }
 
@@ -287,8 +309,24 @@ div.lecture-para{
 }
 
 .live-music{
-   font-size: 4rem;
+   font-size: 2rem;
 }
+
+.more-info{
+   min-width: 75%;
+}
+.live-music{
+   font-size: 200%;
+
+}
+
+.lecture-article { 
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: var(--white);
+}
+
  }
 
  
