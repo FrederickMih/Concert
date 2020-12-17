@@ -54,6 +54,7 @@ Feel free to check the [issues page](issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+* Thank to [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015), for her best design materials
 
 * Thank you Microverse to giving us this chance to learn :)
 
