@@ -90,15 +90,11 @@ body {
 }
 
     /* Media queries for navigation bars */
-    @media(max-width: 2024px){
-     .lecture-article{
-        flex-wrap: wrap;
+    @media(min-width: 768px){
+     .pg4,.pg5{
+        display: none;
      }
-     .pg4,.pg4{
-        display: ;
-     }
-
-    }
+}
     
     @media(max-width: 768px){
       .top-social {
@@ -128,6 +124,7 @@ body {
          font-size: 2rem;
          margin-top: 1rem;
       }
+   
 
       .live-music{
          font-family: 'cocogoose';
@@ -152,14 +149,12 @@ body {
       }
    
   
-   .main-program>.lecture{ 
-   border: 1px solid red;
-}
 
  .main-program {
    text-align: center;
    background-color: white;
    background-size: cover;
+   
    
 } 
 
@@ -168,6 +163,7 @@ body {
    background-image: url('../assets/images/main-bg.svg');
    background-size: cover;
    text-align: center;
+
 }
 
   .line-break {
@@ -185,10 +181,10 @@ body {
   
 
  .lecture-logo {
-   width: 18%;
+   width: 19%;
    background: #adabab38;
    padding: 0.7rem;
-   height: 14rem;
+   height: 25rem;
    line-height: 1.2;
 }
 
@@ -239,11 +235,20 @@ div.lecture-para{
    padding-left: 10rem;
    
 }
+
+.join-button{
+   background-color: var(--red);
+   color: var(--red);
+   font-weight: bolder;
+   font-size: x-large;
+   padding: 2rem 4rem;
+
+}
  
  /* -----------------------------MEDIA QUERIES-------------------------------- */
  
 
- @media only screen and (max-width: 768px){
+ @media only screen and (max-width: 768px) {
     .top-info{
     padding-top: 2.6rem;
    }
@@ -256,12 +261,12 @@ div.lecture-para{
    }
    .lecture-article{
       flex-direction: column;
-      margin: 2.5rem 0;
+      margin: 1rem 0;
  }
 
  .lecture-logo{
     width: 100%;
-    margin: -1rem auto;
+    margin: 1rem auto;
     padding: .5rem;
     display: flex;
     align-items: center;
@@ -274,8 +279,9 @@ div.lecture-para{
    overflow-wrap: break-word;
 }
 
-.p-details{
+.p-more{
    font-size: medium;
+   
 
  }
 .sub-top-info{
@@ -283,9 +289,12 @@ div.lecture-para{
  }
 
  .live-music{
-   font-size: 8rem;
+   font-size: 3rem;
 }
-
+ 
+.seewhole{
+   display: none;
+}
 
 
 
@@ -294,7 +303,7 @@ div.lecture-para{
 
 
 
- @media (max-width: 1024px) {
+ @media (min-width: 768px) {
 
 .red-button{
    border-width: .2rem;
@@ -308,15 +317,11 @@ div.lecture-para{
    font-size:large ; 
 }
 
-.live-music{
-   font-size: 2rem;
-}
-
 .more-info{
    min-width: 75%;
 }
 .live-music{
-   font-size: 200%;
+   font-size: 250%;
 
 }
 
@@ -326,7 +331,16 @@ div.lecture-para{
    align-items: center;
    color: var(--white);
 }
+.lecture-logo{
+   margin-bottom: .3rem auto;
+   padding: .3rem;
+   
+}
+.main-program{
+   height: 700px;
+}
 
+   
  }
 
  
