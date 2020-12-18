@@ -117,6 +117,38 @@ body {
        background-position: center;
        z-index: -1;
       }
+
+      .top-info2{
+         background:
+         url(../assets/images/Classical_spectacular10.jpg) no-repeat center center fixed;
+         -webkit-background-size:cover;
+         -moz-background-size: cover ;
+         -o-background-size:cover;
+         background-size: cover;
+         background-position: center;
+         z-index: -1;
+        }
+
+      .more-info{
+         background: #f7e8e8;
+         font-size: small;
+         border: 1px solid;
+         border-color: #fff;
+         margin: 20rem auto;
+         margin-right: 6rem;
+         margin-left: 6rem;
+         padding-top: 5rem;
+         padding-bottom: 5rem;
+       }
+
+       .about-desc{
+         width: 85%;
+         font-size: medium;
+         margin: 10rem auto;
+         border-color: #eee;
+
+      }
+
     
       .sub-top-info{
          color: var(--red);
@@ -143,6 +175,32 @@ body {
          border-color: #fff;
          
       }
+      .more-info2{
+         background: #fcf3f3;
+         font-size: small;
+         border: 2px solid;
+         border-color: #fff;
+         padding-top: 5rem;
+         padding-bottom: 5rem;
+         font-size: x-large;
+         text-align: justify;
+         
+      }
+
+      @media( max-width: 768px ){
+         .more-info2{
+            background: #f7e8e8;
+            font-size: small;
+            border: 1px solid;
+            border-color: #fff;
+            margin: 20rem auto;
+            margin-right: 2rem;
+            margin-left: 2rem;
+            padding-top: 5rem;
+            padding-bottom: 5rem;
+          }
+       }
+
       .time{
          margin-left: 1rem;
          font-weight: bold;
@@ -252,6 +310,11 @@ div.lecture-para{
     .top-info{
     padding-top: 2.6rem;
    }
+   .more-info{
+      min-width: 100%;
+      text-align: justify;
+   }
+   
 
    .navbar-logo{
       display: none;
@@ -322,7 +385,12 @@ div.lecture-para{
 }
 
 .more-info{
-   min-width: 75%;
+   min-width: 100%;
+   text-align: left;
+}
+.more-info2{
+   min-width: 100%;
+   text-align: left;
 }
 .live-music{
    font-size: 250%;
