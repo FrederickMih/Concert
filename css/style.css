@@ -296,8 +296,12 @@ div.lecture-para{
    display: none;
 }
 
-
-
+.box3, .box4, .box4, .box5{
+   display: none;
+}
+.teams-section, .main-footer{
+   display: none;
+}
  }
 
 
@@ -339,9 +343,46 @@ div.lecture-para{
 .main-program{
    height: 700px;
 }
+}
 
-   
+
+.teams{
+   display: flex;
+   text-align: center;
+   justify-content: space-between;
+   align-content: flex-end;
+   text-align: end;
+   flex-wrap: nowrap;
+   color: var(--black);flex-direction:
+    row;flex-wrap: wrap;
+}
+
+.team {
+   width: 23%;
+   margin: 0.08rem auto;
+   justify-self: center;
+   align-content: flex-end;
+ }
+ 
+ .teams-section{
+    background: #4b4848;
+    color:rgb(143, 138, 138);
  }
 
- 
+
+
+
+
+
+
+
+
+
+
+
+ @media(max-width: 768){
+    .team{
+       width: 44%;
+    }
+ }
  
