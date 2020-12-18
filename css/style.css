@@ -19,7 +19,6 @@
 
  /*----------x------ CSS Quick Fixes ----------x------------------*/
 
-           /*--------------- Theme colors---------- */
  
 :root { 
   
@@ -42,13 +41,12 @@ body {
    font-family: "cocogoose";
    src: url('../assets/fonts/Cocogoose_trial.ttf');
    font-style: normal;
-   /* font-weight: 100; */
 }
 
 .top-social {
    background: var(--black);
    height: 3rem;
-   }
+ }
 
 .top-social a{
    text-decoration: none;
@@ -206,8 +204,6 @@ body {
          font-weight: bold;
       }
    
-  
-
  .main-program {
    text-align: center;
    background-color: white;
@@ -224,7 +220,14 @@ body {
 
 }
 
-  .line-break {
+.ticket-main{
+   background-color: rgb(219, 211, 211);
+   background-image: unset;
+   background-size: unset;
+
+}
+
+.line-break {
    border: 2px solid var(--red);
    width: 2rem;
    margin: 0 auto;
@@ -289,6 +292,10 @@ div.lecture-para{
    width: 60%;
    padding-left: 2rem;
 } 
+.rad{
+   color: var(--red);
+   font-weight: bolder;
+}
 .lecture-logo>h4{
    padding-left: 10rem;
    
@@ -304,7 +311,6 @@ div.lecture-para{
 }
  
  /* -----------------------------MEDIA QUERIES-------------------------------- */
- 
 
  @media only screen and (max-width: 768px) {
     .top-info{
@@ -366,9 +372,6 @@ div.lecture-para{
    display: none;
 }
  }
-
-
-
 
  @media (min-width: 768px) {
 
@@ -437,18 +440,7 @@ div.lecture-para{
     color:rgb(143, 138, 138);
  }
 
-
-
-
-
-
-
-
-
-
-
-
- @media(max-width: 768){
+@media(max-width: 768){
     .team{
        width: 44%;
     }
