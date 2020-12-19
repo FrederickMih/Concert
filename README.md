@@ -15,7 +15,7 @@ This project has been created as a part of Microverse Collaborative Project.
 
 ## Live Demo
 
-[Live Demo Link]
+[https://frederickmih.github.io/Concert/]
 
 ## Getting Started
 
