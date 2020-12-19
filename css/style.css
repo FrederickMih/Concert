@@ -142,6 +142,8 @@ body {
          border-color: white;
        }
 
+       
+
        .date{
           font-family: 'cocogoose', sans-serif;
           font-size: 2.5rem;
@@ -158,14 +160,14 @@ body {
     
       .sub-top-info{
          color: var(--red);
-         font-family: 'cocogoose';
+         font-family: 'Cocogoose_trial', sans-serif;
          font-size: 2rem;
          margin-top: 5rem;
       }
    
 
       .live-music{
-         font-family: 'cocogoose', sans-serif;
+         font-family: 'Cocogoose_trial', sans-serif;
          font-weight: bolder;
          font-size: 5rem;
          background: linear-gradient(45deg, rgb(255, 0, 0, 1) 0%, rgb(33, 3, 3, 1)33%, rgb(238, 82, 1)56%);
@@ -176,6 +178,15 @@ body {
          
       }
 
+      .live-music-about{
+         font-weight: bolder;
+         color: var(--red);
+         font-size: 4rem;
+         text-align: center;
+         font-family: 'Cocogoose_trial', sans-serif;
+         margin-top: 5rem;
+      }
+
       .more-info{
          background: #fcf3f3;
          font-size: small;
@@ -183,16 +194,14 @@ body {
          border-color: #fff;
       }
 
-      .more-info2{
-         background: #fcf3f3;
-         font-size: small;
-         border: 2px solid;
-         border-color: #fff;
-         padding-top: 5rem;
-         padding-bottom: 5rem;
-         font-size: x-large;
-         text-align: justify;   
-      }
+      .more-info-about{
+         font-size: normal;
+         background-color: white;
+         border: 2px solid var(--white);
+         margin-right: 12rem;
+         margin-left: 12rem;
+         
+         }
 
       @media( max-width: 768px )
       {
@@ -208,7 +217,14 @@ body {
             padding-top: 5rem;
             padding-bottom: 5rem;
           }
+          .live-music-about{
+            font-size: 3rem;
        }
+       
+       .about-contact>p{
+ 
+       } 
+      }
 
       .time{
          margin-left: 1rem;
@@ -231,12 +247,47 @@ body {
 
 }
 
+.about-main{
+   background-image:unset;
+  }
+
 .ticket-main{
    background-color: rgb(219, 211, 211);
    background-image: unset;
    background-size: unset;
 
 }
+.logo-about{
+   width: 10rem;
+   height: 7rem;
+
+}
+
+.evt{
+   width: 60%;
+   height: 40%;
+}
+
+.event1{
+   background: url(../assets/images/event1.jpg) no-repeat;
+   background-size: cover;
+   padding: 50px 100px;
+   margin: 0px;
+
+}
+.event2{
+   background: url(../assets/images/event2.jpeg) no-repeat;
+   background-size: cover;
+   padding: 50px 100px;
+}
+
+.bg-glow{
+   width: 100%;
+   height: 100%;
+   background-color: rgba(126, 55, 5, 0.938);
+}
+ 
+
 
 .line-break {
    border: 2px solid var(--red);
@@ -327,6 +378,12 @@ div.lecture-para{
  /* -----------------------------MEDIA QUERIES-------------------------------- */
 
  @media  (max-width: 768px) {
+
+   .more-info-about{  
+    margin-right: 2rem;
+    margin-left: 2rem;
+   }
+
     .top-info{
     padding-top: 2.6rem;
    }
@@ -398,6 +455,10 @@ div.lecture-para{
  }
 
  @media (min-width: 768px) {
+ 
+.pg4{
+   border: 3px solid white;
+}
 
 .red-button{
    border-width: .2rem;
@@ -469,4 +530,7 @@ div.lecture-para{
    height: 3rem;
    width: 4rem;
 }
- 
+.bg-footer{
+   color: rgb(95, 88, 88);
+   background: #0c0b0b;
+}
