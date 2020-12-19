@@ -32,13 +32,14 @@ A machine with a working and up to date web browser.
 
 * Clone the repository to your folder of choice using Git :
 
-* <code>git clone git@github.com:</code>
+* <code>git clone https://github.com/FrederickMih/Concert.git:</code>
 
-* then go to that folder :
+* then go to that folder using the commands below. Lets say the intended folder where the project cloned
+  is 'Fred', then navigate to the Fred's directory by using its absolute path:
 
-* <code>cd "your-folder-path"</code>
+* <code>cd /home/username/Fred</code>
 
-* Open the index.html file (in the folder) and the website should show up.
+* Open the index.html file (in the fred folder) and the website should show up.
 
 
 * GitHub: [@FrederickMih](https://github.com/FrederickMih)
