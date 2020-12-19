@@ -46,13 +46,13 @@ body {
    height: 3rem;
  }
 
-.top-social a{
+.top-social a { 
    text-decoration: none;
    font-size: 1.5rem;
    padding-left: 1rem;
 }
    
-   i{
+   i {
       margin-top: .5rem;
 }
 
@@ -74,7 +74,7 @@ body {
       color: var(--red) !important;
 }
 
-   .red-button{
+   .red-button {
       border-width: .2rem;
       border-color: var(--red);
 }
@@ -86,6 +86,7 @@ body {
 }
 
     /* Media queries for navigation bars */
+
     @media(min-width: 768px){
      .pg4,.pg5{
         display: none;
@@ -165,7 +166,6 @@ body {
          margin-top: 5rem;
       }
    
-
       .live-music{
          font-family: 'Cocogoose_trial', sans-serif;
          font-weight: bolder;
@@ -175,7 +175,6 @@ body {
          -webkit-background-clip: text;
          -webkit-background-fill-color: transparent;
          line-height: 1;
-         
       }
 
       .live-music-about{
@@ -195,16 +194,13 @@ body {
       }
 
       .more-info-about{
-         font-size: normal;
          background-color: white;
          border: 2px solid var(--white);
          margin-right: 12rem;
          margin-left: 12rem;
-         
-         }
+      }
 
-      @media( max-width: 768px )
-      {
+      @media( max-width: 768px ) {
 
          .more-info2{
             background: #f7e8e8;
@@ -236,15 +232,12 @@ body {
    text-align: center;
    background-color: white;
    background-size: cover;
-   
-   
 } 
 
 .main-program {
    background-image: url('../assets/images/main-bg.svg');
    background-size: cover;
    text-align: center;
-
 }
 
 .about-main{
@@ -255,40 +248,37 @@ body {
    background-color: rgb(219, 211, 211);
    background-image: unset;
    background-size: unset;
-
 }
+
 .logo-about{
    width: 10rem;
    height: 7rem;
-
 }
 
-.evt{
+.evt {
    width: 60%;
    height: 40%;
 }
 
-.event1{
+.event1 {
    background: url(../assets/images/event1.jpg) no-repeat;
    background-size: cover;
    padding: 50px 100px;
    margin: 0px;
-
 }
-.event2{
+
+.event2 {
    background: url(../assets/images/event2.jpeg) no-repeat;
    background-size: cover;
    padding: 50px 100px;
 }
 
-.bg-glow{
+.bg-glow {
    width: 100%;
    height: 100%;
    background-color: rgba(126, 55, 5, 0.938);
 }
  
-
-
 .line-break {
    border: 2px solid var(--red);
    width: 2rem;
@@ -313,19 +303,19 @@ body {
 
 }
 
-.p-head{
+.p-head {
    font-size: 1.2rem;
    color: var(--red) ;
 } 
 
-.p-details{
+.p-details {
    font-size: medium;
 }
 
-  h3.main-h{
+  h3.main-h {
      margin-top: 2rem;
   }
-.lecture-para{
+.lecture-para {
    display: flex;
    border: 1px dotted pink;
    flex-direction: row;
@@ -333,18 +323,18 @@ body {
    box-sizing: border-box;
    
 }
-div.lecture-para{
+div.lecture-para {
    width: 80%;
    height: 50%;
    margin: auto; 
 }
 
-.speaker{
+.speaker {
    height: 100%;
    width: 100%;
 }
 
-.lecture-para> p{
+.lecture-para> p {
    display: flex;
    padding-left: 6rem;
    padding-bottom: 4rem;
@@ -358,16 +348,16 @@ div.lecture-para{
    padding-left: 2rem;
 } 
 
-.rad{
+.rad {
    color: var(--red);
    font-weight: bolder;
 }
 
-.lecture-logo>h4{
+.lecture-logo>h4 {
    padding-left: 10rem;
 }
 
-.join-button{
+.join-button {
    background-color: var(--red);
    color: var(--red);
    font-weight: bolder;
@@ -379,36 +369,36 @@ div.lecture-para{
 
  @media  (max-width: 768px) {
 
-   .more-info-about{  
+   .more-info-about {  
     margin-right: 2rem;
     margin-left: 2rem;
    }
 
-    .top-info{
+    .top-info {
     padding-top: 2.6rem;
    }
-   .more-info{
+   .more-info {
       min-width: 100%;
    }
    
-      .navbar-logo{
+      .navbar-logo {
       display: none;
    }
    
-   .date{
-      font-size: 1.5;
+   .date {
+      font-size: 1.5px;
    }
 
-   .logo{
+   .logo {
       display: none;
    }
 
-   .lecture-article{
+   .lecture-article {
       flex-direction: column;
       margin: 1rem 0;
  }
 
- .lecture-logo{
+ .lecture-logo {
     width: 100%;
     margin: 1rem auto;
     display: flex;
@@ -416,47 +406,44 @@ div.lecture-para{
     text-align: left;
     height: 8rem;
 }
-/* .sub-main{
-   justify-content: left;
-} */
 
-.p-head{
+.p-head {
    font-size: 1.3rem;
    overflow-wrap: break-word;
 }
 
-.p-more{
+.p-more {
    font-size: medium;
    margin: auto;
    float: left;
 }
 
-.sub-top-info{
+.sub-top-info {
    margin-top: 1rem;
    font-size: 1.5rem;
    font-weight: lighter;
  }
 
- .live-music{
+ .live-music {
    font-size: 3rem;
 }
  
-.seewhole{
+.seewhole {
    display: none;
 }
 
-.box3, .box4, .box4, .box5{
+.box3, .box4, .box4, .box5 {
    display: none;
 }
 
-.teams-section, .main-footer{
+.teams-section, .main-footer {
    display: none;
 }
  }
 
  @media (min-width: 768px) {
  
-.pg4{
+.pg4 {
    border: 3px solid white;
 }
 
@@ -465,24 +452,24 @@ div.lecture-para{
    font-size: x-small;
 }
 
-.top-title{
+.top-title {
    min-width: 80%;
 }
 
-.sub-top-info{
+.sub-top-info {
    font-size:large ; 
 }
 
-.more-info{
+.more-info {
    min-width: 65%;
    margin-left: 5.5rem;
 }
 
-.more-info2{
+.more-info2 {
    min-width: 75%;
 }
 
-.live-music{
+.live-music {
    font-size: 4rem;
 }
 
@@ -493,12 +480,12 @@ div.lecture-para{
    color: var(--white);
 }
 
-.main-program{
+.main-program {
    height: 700px;
 }
 }
 
-.teams{
+.teams {
    display: flex;
    text-align: center;
    justify-content: space-between;
@@ -516,21 +503,23 @@ div.lecture-para{
    align-content: flex-end;
  }
  
- .teams-section{
+ .teams-section {
     background: #4b4848;
     color:rgb(143, 138, 138);
  }
 
 @media(max-width: 768){
-    .team{
+    .team {
        width: 44%;
     }
  }
-.footer-logo{
+
+.footer-logo {
    height: 3rem;
    width: 4rem;
 }
-.bg-footer{
+
+.bg-footer {
    color: rgb(95, 88, 88);
    background: #0c0b0b;
 }

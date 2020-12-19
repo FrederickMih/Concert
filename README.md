@@ -15,7 +15,7 @@ This project has created as a part of the Microverse Collaborative Project.
 
 ## Live Demo
 
-[https://frederickmih.github.io/Concert/]
+(https://frederickmih.github.io/Concert/)
 
 ## Getting Started
 
@@ -38,14 +38,14 @@ as Visual Studio Code, Atom, Sublime is recommended.
 
 * <code>cd /home/username/Fred</code>
 
-* Open the index.html file (in the fred folder) and the website should show up.
+* Open the index.html file (in the Fred folder) the website should show up.
 
 
 * GitHub: [@FrederickMih](https://github.com/FrederickMih)
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
+Contributions, issues, and features requests are welcome!
 
 Feel free to check the [issues page](issues/).
 
