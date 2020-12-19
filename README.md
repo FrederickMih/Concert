@@ -1,7 +1,7 @@
 
 
 ##  I have build a live musical performance plateform.
-This project has been created as a part of Microverse Collaborative Project.
+This project has created as a part of the Microverse Collaborative Project.
 
 ## Screenshot
 ![screenshot](./assets/images/night-club-concert.png)
@@ -15,18 +15,17 @@ This project has been created as a part of Microverse Collaborative Project.
 
 ## Live Demo
 
-[Live Demo Link]
+[https://frederickmih.github.io/Concert/]
 
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and functioning, follow these simple example steps.
 
 ### Prerequisites
 
 You must have a text editor installed on your machine.
 You can use any default text editor that comes with the system like Notepad but advanced text editors
-like Visual Studio Code, Atom or Sublime is recommended.
-A machine with a working and up to date web browser.
+as Visual Studio Code, Atom, Sublime is recommended.
 
 ### Setup
 
@@ -34,8 +33,8 @@ A machine with a working and up to date web browser.
 
 * <code>git clone https://github.com/FrederickMih/Concert.git:</code>
 
-* then go to that folder using the commands below. Lets say the intended folder where the project cloned
-  is 'Fred', then navigate to the Fred's directory by using its absolute path:
+* Then go to that folder using the commands below. Let us say the intended folder where the project cloned
+  is 'Fred' then navigate to Fred's directory by using its absolute path:
 
 * <code>cd /home/username/Fred</code>
 
