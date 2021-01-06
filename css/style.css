@@ -30,6 +30,7 @@ body {
   font-family: "Lato", sans-serif;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
@@ -93,7 +94,7 @@ nav-link:hover {
     margin-left: 4.5rem;
   }
   .img-place {
-    margin-left: 2.5rem;
+    margin-left: 4rem;
     margin-top: 1rem;
     width: 2rem;
     height: 2rem;
@@ -215,6 +216,33 @@ nav-link:hover {
 
   .about-contact > p {
   }
+}
+.tickets {
+  width: 70%;
+  margin-bottom: 2.5rem;
+}
+
+.tab-design {
+  background-image: linear-gradient(
+    45deg,
+    #ec5242 12.5%,
+    #fff 12.5%,
+    #fff 25%,
+    #3d6f8e 25%,
+    #3d6f8e 37.5%,
+    #fff 37.5%,
+    #fff 5%,
+    #ec5242 5%,
+    #ec5242 62.5%,
+    #fff 62.5%,
+    #fff 75%,
+    #3d6f8e 75%,
+    #3d6f8e 87.5%,
+    #fff 87.5%,
+    #fff 100%
+  );
+  background-size: 40px 40px;
+  overflow-x: auto;
 }
 
 .time {
@@ -344,6 +372,23 @@ div.lecture-para {
   font-weight: bolder;
 }
 
+.event-head {
+  background: var(--white);
+}
+
+.rounded-header {
+  width: auto;
+  max-width: max-content;
+  margin: 0 auto;
+  padding: 0 1.2rem;
+}
+
+.bring-up {
+  position: relative;
+  top: -1.5rem;
+  width: 3.5%;
+}
+
 .lecture-logo > h4 {
   padding-left: 10rem;
 }
@@ -359,6 +404,13 @@ div.lecture-para {
 /* -----------------------------MEDIA QUERIES-------------------------------- */
 
 @media (max-width: 768px) {
+  .tickets {
+    width: 100%;
+  }
+  .bring-up {
+    top: -1rem;
+    width: 5%;
+  }
   .more-info-about {
     margin-right: 2rem;
     margin-left: 2rem;
@@ -402,11 +454,11 @@ div.lecture-para {
     overflow-wrap: break-word;
   }
 
-  .p-more {
+  /* .p-more {
     font-size: medium;
     margin: auto;
     float: left;
-  }
+  } */
 
   .sub-top-info {
     margin-top: 1rem;
@@ -436,6 +488,20 @@ div.lecture-para {
 }
 
 @media (min-width: 768px) {
+  .tickets {
+    width: 85%;
+  }
+  .bring-up {
+    top: -1.2rem;
+    width: 4%;
+  }
+  .p-more {
+    display: flex;
+    justify-content: right;
+  }
+  .p-head {
+    margin-left: 2rem;
+  }
   .pg4 {
     border: 3px solid white;
   }

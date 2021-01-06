@@ -1,10 +1,18 @@
-##  I have build a live musical performance plateform.
+##  Live Musical Concert Platform 2021.
+
+# [Solo Capstone Project]
 
 This project has created as a part of the Microverse Collaborative Project.
+The original specifications of the project can be found 
+<a href="https://www.notion.so/HTML-CSS-capstone-project-Conference-page-ed3efca4b9824484a9df7f9f24067ff7">here</a>
+
+## Author
+
+# Mih Frederick Ngum
 
 ## Screenshot
 
-![screenshot](./assets/images/night-club-concert.png)
+![screenshot](./assets/images/concert-Screenshot.png)
 
 ## Built With
 
@@ -13,9 +21,9 @@ This project has created as a part of the Microverse Collaborative Project.
 * BootStrap
 * VS Code 
 
-## Live Demo
+## Link to live demo
 
-<a href="https://frederickmih.github.io/Concert/">Here</a>
+<a href="https://frederickmih.github.io/Concert/">Click here</a>
 
 ## Getting Started
 
