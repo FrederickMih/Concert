@@ -162,16 +162,7 @@ i {
   font-family: "Cocogoose_trial", sans-serif;
   font-weight: bolder;
   font-size: 5rem;
-  background: 
-      linear-gradient(
-      45deg,
-      rgba(218, 73, 73, 0.171) 0%,
-      rgba(173, 97, 97, 0.247) 30%,
-      rgba(223, 180, 156, 0.185) 80%
-    );
-
-color: var(--red);
-line-height: 1;
+  color: var(--red);
 }
 
 .live-music-about {
@@ -238,8 +229,11 @@ line-height: 1;
 }
 
 .time {
-  margin-left: 1rem;
   font-weight: bold;
+  color: var(--black);
+  background: rgba(224, 255, 255, 0.418);
+  width: 100%;
+  margin-left: 0;
 }
 
 .main-program {
