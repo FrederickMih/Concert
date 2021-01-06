@@ -109,22 +109,21 @@ i {
 
 /* ----------Main section here--------------- */
 
- .top-info {
-  background: linear-gradient(rgba(247, 242, 242, 0.068), rgba(245, 240, 240, 0.096)),
-    url(../assets/images/Classical_spectacular10.jpg) no-repeat center center
-      fixed;
-
+.top-info {
+  background:
+    linear-gradient(rgba(247, 242, 242, 0.068), rgba(245, 240, 240, 0.096)),
+    url(../assets/images/Classical_spectacular10.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-
   background-size: cover;
   background-position: center;
   z-index: 5;
-} 
+}
 
 .top-info2 {
-  background:linear-gradient(rgba(247, 242, 242, 0.233), rgba(245, 240, 240, 0.5)),
+  background:
+    linear-gradient(rgba(247, 242, 242, 0.233), rgba(245, 240, 240, 0.5)),
     url(../assets/images/Classical_spectacular10.jpg) no-repeat;
   background-size: cover;
   background-position: center;
@@ -163,15 +162,16 @@ i {
   font-family: "Cocogoose_trial", sans-serif;
   font-weight: bolder;
   font-size: 5rem;
-  background: linear-gradient(
-    45deg,
-    rgba(218, 73, 73, 0.171) 0%,
-    rgba(173, 97, 97, 0.247) 30%,
-    rgba(223, 180, 156, 0.185) 80%
-  );
+  background: 
+      linear-gradient(
+      45deg,
+      rgba(218, 73, 73, 0.171) 0%,
+      rgba(173, 97, 97, 0.247) 30%,
+      rgba(223, 180, 156, 0.185) 80%
+    );
 
-  color: var(--red);
-  line-height: 1;
+color: var(--red);
+line-height: 1;
 }
 
 .live-music-about {
@@ -214,24 +214,25 @@ i {
 }
 
 .tab-design {
-  background-image: linear-gradient(
-    45deg,
-    #ec5242 12.5%,
-    #fff 12.5%,
-    #fff 25%,
-    #3d6f8e 25%,
-    #3d6f8e 37.5%,
-    #fff 37.5%,
-    #fff 5%,
-    #ec5242 5%,
-    #ec5242 62.5%,
-    #fff 62.5%,
-    #fff 75%,
-    #3d6f8e 75%,
-    #3d6f8e 87.5%,
-    #fff 87.5%,
-    #fff 100%
-  );
+  background-image:
+    linear-gradient(
+      45deg,
+      #ec5242 12.5%,
+      #fff 12.5%,
+      #fff 25%,
+      #3d6f8e 25%,
+      #3d6f8e 37.5%,
+      #fff 37.5%,
+      #fff 5%,
+      #ec5242 5%,
+      #ec5242 62.5%,
+      #fff 62.5%,
+      #fff 75%,
+      #3d6f8e 75%,
+      #3d6f8e 87.5%,
+      #fff 87.5%,
+      #fff 100%
+    );
   background-size: 40px 40px;
   overflow-x: auto;
 }
@@ -251,12 +252,13 @@ i {
 .about-main {
   background-image: unset;
   background-size: unset;
-
 }
-.about-logo{
+
+.about-logo {
   margin: 1rem auto;
   width: 60%;
 }
+
 .ticket-main {
   background-color: rgb(219, 211, 211);
   background-image: unset;
@@ -397,19 +399,20 @@ div.lecture-para {
 /* -----------------------------MEDIA QUERIES-------------------------------- */
 
 @media (max-width: 768px) {
-.evt{
-  width: 100%;
-  height: 15rem;
-}
-.about-past-symposium {
-flex-direction: column;
-}
+  .evt {
+    width: 100%;
+    height: 15rem;
+  }
 
+  .about-past-symposium {
+    flex-direction: column;
+  }
 
-.about-logo{
-  margin: 1rem auto;
-  width: 60%;
-}
+  .about-logo {
+    margin: 1rem auto;
+    width: 60%;
+  }
+
   .tickets {
     width: 100%;
   }
