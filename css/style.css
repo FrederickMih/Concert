@@ -302,12 +302,11 @@ i {
 }
 
 .lecture-logo {
-  width: 20%;
+  width: 19.8%;
   background: #adabab38;
-  height: 17rem;
-  line-height: 1.2;
-  margin-top: 6rem;
-  padding: 5px;
+  height: 12rem;
+  line-height: 1.1;
+  padding: .7rem;
 }
 
 .p-head {
@@ -350,12 +349,6 @@ div.lecture-para {
   color: white;
 }
 
-.lecture-logo > img {
-  height: 40%;
-  width: 60%;
-  padding-left: 2rem;
-}
-
 .rad {
   color: var(--red);
   font-weight: bolder;
@@ -378,10 +371,6 @@ div.lecture-para {
   width: 3.5%;
 }
 
-.lecture-logo > h4 {
-  padding-left: 10rem;
-}
-
 .join-button {
   background-color: var(--red);
   color: var(--red);
@@ -393,6 +382,17 @@ div.lecture-para {
 /* -----------------------------MEDIA QUERIES-------------------------------- */
 
 @media (max-width: 768px) {
+
+ .lecture-logo {
+  height: auto;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  margin: 0.5rem auto;
+ } 
+
   .evt {
     width: 100%;
     height: 15rem;
@@ -443,7 +443,7 @@ div.lecture-para {
 
   .lecture-article {
     flex-direction: column;
-    margin: 1rem 0;
+    margin: 2.5rem 0;
   }
 
   .lecture-logo {
@@ -494,6 +494,13 @@ div.lecture-para {
 }
 
 @media (min-width: 768px) {
+
+ .lecture-logo {
+  height: 12rem;
+  width: 32%;
+  padding-left: .5rem;
+  }
+
   .tickets {
     width: 85%;
   }
