@@ -12,7 +12,7 @@ The original specifications of the project can be found
 
 ## Screenshot
 
-![screenshot](./assets/images/concert-Screenshot.png)
+![screenshot](./assets/images/concertSc.png)
 
 ## Built With
 
