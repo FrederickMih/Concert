@@ -482,6 +482,10 @@ div.lecture-para {
 }
 
 @media (min-width: 768px) {
+ .navbar-toggler {
+  display: none;
+ }
+
  .lecture-logo {
   height: 12rem;
   width: 32%;
