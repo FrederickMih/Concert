@@ -111,19 +111,18 @@ i {
 
 .top-info {
   background:
-    linear-gradient(rgba(247, 242, 242, 0.068), rgba(245, 240, 240, 0.096)),
+    linear-gradient(rgba(207, 191, 191, 0.822), rgba(218, 209, 209, 0.658)),
     url(../assets/images/Classical_spectacular10.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   background-position: center;
-  z-index: 5;
 }
 
 .top-info2 {
   background:
-    linear-gradient(rgba(247, 242, 242, 0.233), rgba(245, 240, 240, 0.5)),
+    linear-gradient(rgba(207, 191, 191, 0.822), rgba(218, 209, 209, 0.658)),
     url(../assets/images/Classical_spectacular10.jpg) no-repeat;
   background-size: cover;
   background-position: center;
@@ -132,7 +131,7 @@ i {
 
 .more-info {
   color: var(--black);
-  background: rgb(245, 237, 237);
+  background: rgba(245, 237, 237, 0.562);
   font-size: small;
   border: 2px solid;
   border-color: white;
@@ -161,7 +160,6 @@ i {
 .live-music {
   font-family: "Cocogoose_trial", sans-serif;
   font-weight: bolder;
-  font-size: 5rem;
   color: var(--red);
 }
 
@@ -231,9 +229,9 @@ i {
 .time {
   font-weight: bold;
   color: var(--black);
-  background: rgba(224, 255, 255, 0.418);
+  background: rgba(224, 255, 255, 0.164);
   width: 100%;
-  margin-left: 0;
+  margin-left: 5rem;
 }
 
 .main-program {
@@ -433,7 +431,7 @@ div.lecture-para {
   }
 
   .date {
-    font-size: 1.5px;
+    margin-bottom: 5rem;
   }
 
   .logo {
@@ -473,7 +471,13 @@ div.lecture-para {
 
   .teams-section,
   .main-footer {
-    display: none;
+   display: none;
+  }
+
+  .time {
+   font-size: 1rem;
+   height: 3rem;
+   margin-left: 0;
   }
 }
 
@@ -517,6 +521,7 @@ div.lecture-para {
 
   .sub-top-info {
     font-size: large;
+    margin-left: 5rem;
   }
 
   .more-info {
@@ -530,6 +535,7 @@ div.lecture-para {
 
   .live-music {
     font-size: 4rem;
+    margin-left: 5rem;
   }
 
   .lecture-article {
@@ -539,9 +545,9 @@ div.lecture-para {
     color: var(--white);
   }
 
-  /* .main-program {
+  .main-program-ticket {
     height: 700px;
-  } */
+  }
 }
 
 .teams {
