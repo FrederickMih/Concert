@@ -482,10 +482,6 @@ div.lecture-para {
 }
 
 @media (min-width: 768px) {
- .navbar-toggler {
-  display: none;
- }
-
  .lecture-logo {
   height: 12rem;
   width: 32%;
@@ -590,4 +586,10 @@ div.lecture-para {
 .bg-footer {
   color: rgb(95, 88, 88);
   background: #0c0b0b;
+}
+
+@media (min-width: 992px) {
+.navbar-toggler {
+  display: none;
+ }
 }
