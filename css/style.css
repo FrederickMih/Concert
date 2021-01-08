@@ -1,333 +1,589 @@
-/*--------------- CSS Quick Fixes----------------------------- */
-
+/* --------------- CSS Quick Fixes----------------------------- */
+/* stylelint-disable indentation */
 :root {
-   box-sizing: border-box;
- 
-   --button-bg-color: #567b95;
-   --button-bg-hover-color: #3b5568;
-   --link-text-color: #246a9c;
-   --icons-bg-color: #eee;
-   --text-color-dark: rgb(12, 11, 11);
-   --text-color-light: rgb(105, 102, 102);
-}
- 
- *,
- ::before,
- ::after {
-   box-sizing: inherit;
+  box-sizing: border-box;
+
+  --button-bg-color: #567b95;
+  --button-bg-hover-color: #3b5568;
+  --link-text-color: #246a9c;
+  --icons-bg-color: #eee;
+  --text-color-dark: rgb(12, 11, 11);
+  --text-color-light: rgb(105, 102, 102);
+  --black: #272a31;
+  --red: #ec5242;
+  --white: #d3d3d3;
 }
 
- /*----------x------ CSS Quick Fixes ----------x------------------*/
-
-           /*--------------- Theme colors---------- */
- 
-:root { 
-  
-   --black: #272A31;
-   --red:#EC5242;
-   --white:#D3D3D3;  
-
+*,
+::before,
+::after {
+  box-sizing: inherit;
 }
 
-*,html,
+/* ----------x------ CSS Quick Fixes ----------x------------------ */
+
+*,
+html,
 body {
-  
-   font-family: 'Lato', sans-serif;
-   margin: 0;
-   padding: 0;
-  
+  font-family: "Lato", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@font-face{
-   font-family: "cocogoose";
-   src: url('../assets/fonts/Cocogoose_trial.ttf');
-   font-style: normal;
-   /* font-weight: 100; */
+@font-face {
+  font-family: "cocogoose";
+  src: url("../assets/fonts/Cocogoose_trial.ttf");
+  font-style: normal;
 }
 
 .top-social {
-   background: var(--black);
-   height: 3rem;
-   }
-
-.top-social a{
-   text-decoration: none;
-   font-size: 1.5rem;
-   padding-left: 1rem;
-}
-   
-   i{
-      margin-top: .5rem;
+  background: var(--black);
+  height: 3rem;
 }
 
-   .navbar{
-   font-size: 1.14rem;
-   font-weight: 900;
-   letter-spacing: .1rem;  
-   box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
-   z-index: 1; 
-   }
-
-   .nav-item {
-      padding: .5rem;
-      
+.top-social a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding-left: 1rem;
 }
 
-   .nav-link.active,
-   nav-link:hover {
-      color: var(--red) !important;
+i {
+  margin-top: 0.5rem;
 }
 
-   .red-button{
-      border-width: .2rem;
-      border-color: var(--red);
-}
-  
-   .logo {
-      width: 2rem;
-      height: 4rem;
-      margin-top: 0rem;
+.navbar {
+  font-size: 1.14rem;
+  font-weight: 900;
+  letter-spacing: 0.1rem;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
+  z-index: 1;
 }
 
-    /* Media queries for navigation bars */
-    @media(max-width: 2024px){
-     .lecture-article{
-        flex-wrap: wrap;
-     }
-     .pg4,.pg4{
-        display: ;
-     }
-
-    }
-    
-    @media(max-width: 768px){
-      .top-social {
-         display: none;
-
-      }
-   }
-        /* ----------Main section here--------------- */
-
-      .top-info{
-       background: linear-gradient(
-         rgba(247, 242, 242, 0.5),
-         rgb(245, 240, 240)
-       ),
-       url(../assets/images/Classical_spectacular10.jpg) no-repeat center center fixed;
-       -webkit-background-size:cover;
-       -moz-background-size: cover ;
-       -o-background-size:cover;
-       background-size: cover;
-       background-position: center;
-       z-index: -1;
-      }
-    
-      .sub-top-info{
-         color: var(--red);
-         font-family: 'cocogoose';
-         font-size: 2rem;
-         margin-top: 1rem;
-      }
-
-      .live-music{
-         font-family: 'cocogoose';
-         font-weight: bolder;
-
-         background: linear-gradient(45deg, rgb(255, 0, 0, 1) 0%, rgb(33, 3, 3, 1)33%, rgb(238, 82, 1)56%);
-         color: var(--red);
-         -webkit-background-clip: text;
-         -webkit-background-fill-color: transparent;
-      }
-
-      .more-info{
-         background: #fcf3f3;
-         font-size: small;
-         border: 2px solid;
-         border-color: #fff;
-         
-      }
-      .time{
-         margin-left: 1rem;
-         font-weight: bold;
-      }
-   
-  
-   .main-program>.lecture{ 
-   border: 1px solid red;
+.nav-item {
+  padding: 0.5rem;
 }
 
- .main-program {
-   text-align: center;
-   background-color: white;
-   background-size: cover;
-   
-} 
-
-
-   .main-program {
-   background-image: url('../assets/images/main-bg.svg');
-   background-size: cover;
-   text-align: center;
+.nav-link.active,
+.nav-link:hover {
+  color: var(--red) !important;
 }
 
-  .line-break {
-   border: 2px solid var(--red);
-   width: 2rem;
-   margin: 0 auto;
+.red-button {
+  border-width: 0.2rem;
+  border-color: var(--red);
 }
 
-  .lecture-article { 
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   color: var(--white);
-}
-  
-
- .lecture-logo {
-   width: 18%;
-   background: #adabab38;
-   padding: 0.7rem;
-   height: 14rem;
-   line-height: 1.2;
+.logo {
+  width: 2rem;
+  height: 4rem;
+  margin-top: 0;
 }
 
-.p-head{
-   font-size: 1.2rem;
-   color: var(--red) ;
-} 
+/* Media queries for navigation bars */
 
-.p-details{
-   font-size: medium;
-}
-
-  h3.main-h{
-     margin-top: 2rem;
+@media (min-width: 768px) {
+  .pg4,
+  .pg5 {
+    display: none;
   }
-.lecture-para{
-   display: flex;
-   border: 1px dotted pink;
-   flex-direction: row;
-   flex-wrap: wrap;
-   box-sizing: border-box;
-   
-}
-div.lecture-para{
-   width: 80%;
-   height: 50%;
-   margin: auto; 
-}
 
-.speaker{
-   height: 100%;
-   width: 100%;
+  .date,
+  .place {
+    margin-left: 4.5rem;
+  }
+
+  .img-place {
+    margin-left: 4rem;
+    margin-top: 1rem;
+    width: 2rem;
+    height: 2rem;
+  }
 }
 
-.lecture-para> p{
-   display: flex;
-   padding-left: 6rem;
-   padding-bottom: 4rem;
-   justify-content: flex-end;
-   color: white;
+@media (max-width: 768px) {
+  .top-social {
+    display: none;
+  }
 }
-.lecture-logo>img {
-   height: 40%;
-   width: 60%;
-   padding-left: 2rem;
-} 
-.lecture-logo>h4{
-   padding-left: 10rem;
-   
+
+/* ----------Main section here--------------- */
+
+.top-info {
+  background:
+    linear-gradient(rgba(207, 191, 191, 0.822), rgba(218, 209, 209, 0.658)),
+    url(../assets/images/Classical_spectacular10.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
 }
- 
- /* -----------------------------MEDIA QUERIES-------------------------------- */
- 
 
- @media only screen and (max-width: 768px){
-    .top-info{
-    padding-top: 2.6rem;
-   }
+.top-info2 {
+  background:
+    linear-gradient(rgba(207, 191, 191, 0.822), rgba(218, 209, 209, 0.658)),
+    url(../assets/images/Classical_spectacular10.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 5;
+}
 
-   .navbar-logo{
-      display: none;
-   }
-   .logo{
-      display: none;
-   }
-   .lecture-article{
-      flex-direction: column;
-      margin: 2.5rem 0;
- }
+.more-info {
+  color: var(--black);
+  background: rgba(245, 237, 237, 0.562);
+  font-size: small;
+  border: 2px solid;
+  border-color: white;
+}
 
- .lecture-logo{
+.date {
+  font-family: "cocogoose", sans-serif;
+  font-size: 2.5rem;
+  color: var(--black);
+}
+
+.about-desc {
+  width: 85%;
+  font-size: medium;
+  margin: 10rem auto;
+  border-color: #eee;
+}
+
+.sub-top-info {
+  color: var(--red);
+  font-family: "Cocogoose_trial", sans-serif;
+  font-size: 2rem;
+  margin-top: 5rem;
+}
+
+.live-music {
+  font-family: "Cocogoose_trial", sans-serif;
+  font-weight: bolder;
+  color: var(--red);
+}
+
+.live-music-about {
+  font-weight: bolder;
+  color: var(--red);
+  font-size: 4rem;
+  text-align: center;
+  font-family: "Cocogoose_trial", sans-serif;
+  margin-top: 5rem;
+}
+
+.more-info-about {
+  background-color: white;
+  border: 2px solid var(--white);
+  margin-right: 12rem;
+  margin-left: 12rem;
+}
+
+@media (max-width: 768px) {
+  .more-info2 {
+    background: #f7e8e8;
+    font-size: small;
+    border: 1px solid;
+    border-color: #fff;
+    margin: 20rem auto;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .live-music-about {
+    font-size: 3rem;
+  }
+}
+
+.tickets {
+  width: 70%;
+  margin-bottom: 2.5rem;
+}
+
+.tab-design {
+  background-image:
+    linear-gradient(
+      45deg,
+      #ec5242 12.5%,
+      #fff 12.5%,
+      #fff 25%,
+      #3d6f8e 25%,
+      #3d6f8e 37.5%,
+      #fff 37.5%,
+      #fff 5%,
+      #ec5242 5%,
+      #ec5242 62.5%,
+      #fff 62.5%,
+      #fff 75%,
+      #3d6f8e 75%,
+      #3d6f8e 87.5%,
+      #fff 87.5%,
+      #fff 100%
+    );
+  background-size: 40px 40px;
+  overflow-x: auto;
+}
+
+.time {
+  font-weight: bold;
+  color: var(--black);
+  background: rgba(224, 255, 255, 0.164);
+  width: 100%;
+  margin-left: 5rem;
+}
+
+.main-program {
+  background-image: url("../assets/images/main-bg.svg");
+  background-size: cover;
+  text-align: center;
+  background-color: white;
+}
+
+.about-main {
+  background-image: unset;
+  background-size: unset;
+}
+
+.about-logo {
+  margin: 1rem auto;
+  width: 60%;
+}
+
+.ticket-main {
+  background-color: rgb(219, 211, 211);
+  background-image: unset;
+  background-size: unset;
+}
+
+.logo-about {
+  width: 10rem;
+  height: 7rem;
+}
+
+.evt {
+  width: 60%;
+  height: 40%;
+}
+
+.event1 {
+  background: url(../assets/images/event1.jpg) no-repeat center;
+  background-size: cover;
+  padding: 0;
+}
+
+.event2 {
+  background: url(../assets/images/event2.jpeg) no-repeat;
+  background-size: cover;
+  padding: 0;
+}
+
+.bg-glow {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(126, 55, 5, 0.671);
+  padding: 80px 80px;
+}
+
+.line-break {
+  border: 2px solid var(--red);
+  width: 2rem;
+  margin: 0 auto;
+}
+
+.lecture-article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--white);
+}
+
+.lecture-logo {
+  width: 19.8%;
+  background: #adabab38;
+  height: 12rem;
+  line-height: 1.1;
+  padding: 0.7rem;
+}
+
+.p-head {
+  font-size: 1.2rem;
+  color: var(--red);
+}
+
+.p-details {
+  font-size: medium;
+}
+
+h3.main-h {
+  margin-top: 2rem;
+}
+
+.lecture-para {
+  display: flex;
+  border: 1px dotted pink;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+div.lecture-para {
+  width: 80%;
+  height: 50%;
+  margin: auto;
+}
+
+.speaker {
+  height: 100%;
+  width: 100%;
+}
+
+.lecture-para > p {
+  display: flex;
+  padding-left: 6rem;
+  padding-bottom: 4rem;
+  justify-content: flex-end;
+  color: white;
+}
+
+.rad {
+  color: var(--red);
+  font-weight: bolder;
+}
+
+.event-head {
+  background: var(--white);
+}
+
+.rounded-header {
+  width: auto;
+  max-width: max-content;
+  margin: 0 auto;
+  padding: 0 1.2rem;
+}
+
+.bring-up {
+  position: relative;
+  top: -1.5rem;
+  width: 3.5%;
+}
+
+.join-button {
+  background-color: var(--red);
+  color: var(--red);
+  font-weight: bolder;
+  font-size: x-large;
+  padding: 2rem 4rem;
+}
+
+/* -----------------------------MEDIA QUERIES-------------------------------- */
+
+@media (max-width: 768px) {
+ .lecture-logo {
+    height: auto;
     width: 100%;
-    margin: -1rem auto;
-    padding: .5rem;
+    padding: 1rem;
     display: flex;
     align-items: center;
     text-align: left;
-    height: auto;
+    margin: 0.5rem auto;
+   }
+
+  .evt {
+    width: 100%;
+    height: 15rem;
+   }
+
+  .about-past-symposium {
+    flex-direction: column;
+  }
+
+  .about-logo {
+    margin: 1rem auto;
+    width: 60%;
+  }
+
+  .tickets {
+    width: 100%;
+  }
+
+  .bring-up {
+    top: -1rem;
+    width: 5%;
+  }
+
+  .more-info-about {
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+
+  .top-info {
+    padding-top: 2.6rem;
+  }
+
+  .more-info {
+    min-width: 100%;
+  }
+
+  .navbar-logo {
+    display: none;
+  }
+
+  .date {
+    margin-bottom: 5rem;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .lecture-article {
+    flex-direction: column;
+    margin: 2.5rem 0;
+  }
+
+  .p-head {
+    font-size: 1.3rem;
+    overflow-wrap: break-word;
+  }
+
+  .sub-top-info {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: lighter;
+  }
+
+  .live-music {
+    font-size: 3rem;
+  }
+
+  .seewhole {
+    display: none;
+  }
+
+  .box2,
+  .box3,
+  .box4,
+  .box5 {
+    display: none;
+  }
+
+  .teams-section,
+  .main-footer {
+   display: none;
+  }
+
+  .time {
+   font-size: 1rem;
+   height: 3rem;
+   margin-left: 0;
+  }
 }
 
-.p-head{
-   font-size: 1.3rem;
-   overflow-wrap: break-word;
+@media (min-width: 768px) {
+ .lecture-logo {
+  height: 12rem;
+  width: 32%;
+  padding-left: 0.5rem;
+  }
+
+  .tickets {
+    width: 85%;
+  }
+
+  .bring-up {
+    top: -1.2rem;
+    width: 4%;
+  }
+
+  .p-more {
+    display: flex;
+    justify-content: right;
+  }
+
+  .p-head {
+    margin-left: 2rem;
+  }
+
+  .pg4 {
+    border: 3px solid white;
+  }
+
+  .red-button {
+    border-width: 0.2rem;
+    font-size: x-small;
+  }
+
+  .top-title {
+    min-width: 80%;
+  }
+
+  .sub-top-info {
+    font-size: large;
+    margin-left: 5rem;
+  }
+
+  .more-info {
+    min-width: 65%;
+    margin-left: 5.5rem;
+  }
+
+  .more-info2 {
+    min-width: 75%;
+  }
+
+  .live-music {
+    font-size: 4rem;
+    margin-left: 5rem;
+  }
+
+  .lecture-article {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: var(--white);
+  }
+
+  .main-program-ticket {
+    height: 700px;
+  }
 }
 
-.p-details{
-   font-size: medium;
-
- }
-.sub-top-info{
-   margin-top: 1rem;
- }
-
- .live-music{
-   font-size: 8rem;
+.teams {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-content: flex-end;
+  color: var(--black);
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-
-
-
- }
-
-
-
-
- @media (max-width: 1024px) {
-
-.red-button{
-   border-width: .2rem;
-   font-size: x-small;
-}
-.top-title{
-   min-width: 80%;
+.team {
+  width: 23%;
+  margin: 0.08rem auto;
+  justify-self: center;
+  align-content: flex-end;
 }
 
-.sub-top-info{
-   font-size:large ; 
+.teams-section {
+  background: #4b4848;
+  color: rgb(143, 138, 138);
 }
 
-.live-music{
-   font-size: 2rem;
+@media (max-width: 768px) {
+  .team {
+    width: 44%;
+  }
 }
 
-.more-info{
-   min-width: 75%;
-}
-.live-music{
-   font-size: 200%;
-
+.footer-logo {
+  height: 3rem;
+  width: 4rem;
 }
 
-.lecture-article { 
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   color: var(--white);
+.bg-footer {
+  color: rgb(95, 88, 88);
+  background: #0c0b0b;
 }
-
- }
-
- 
- 
